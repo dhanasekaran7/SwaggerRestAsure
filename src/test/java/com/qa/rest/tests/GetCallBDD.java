@@ -1,7 +1,7 @@
 package com.qa.rest.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.testng.annotations.Test:
 
 
 import io.restassured.response.Response;
@@ -39,10 +39,10 @@ public class GetCallBDD {
 	public void test_add() {
 
 		HashMap data=new HashMap();	
-		data.put("id", "1");
-		data.put("petId","15");
-		data.put("quantity", "10");
-		data.put("shipDate", "2023-04-20T08:07:43.224Z");
+		data.put("id", "2");
+		data.put("petId","20");
+		data.put("quantity", "12");
+		data.put("shipDate", "2023-05-20T14:07:43.224Z");
 		data.put("status", "placed");
 		data.put("complete", "true");
 
